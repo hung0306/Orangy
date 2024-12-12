@@ -1,0 +1,58 @@
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+h2{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    margin: 0;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media  (max-width: 1200px){
+    .container{
+        max-width: 960px;
+       
+    }
+
+    
+}
+@media  (max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+
+    
+}
+@media  (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+
+    
+}
+@media (max-width: 576px){
+    .container{
+        max-width: 100%;
+        padding-left:15px ;
+        padding-right: 15px;
+    }
+
+    
+}
